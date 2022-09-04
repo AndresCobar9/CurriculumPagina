@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1019%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(45%2c 45%2c 45%2c 1)'%3e%3c/rect%3e%3cpath d='M-59.27 -15.39 a43.88 43.88 0 1 0 87.76 0 a43.88 43.88 0 1 0 -87.76 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M23.356%2c81.775C44.338%2c82.372%2c64.371%2c71.27%2c74.526%2c52.899C84.386%2c35.062%2c81.379%2c13.384%2c70.781%2c-4.025C60.631%2c-20.7%2c42.877%2c-31.147%2c23.356%2c-31.161C3.81%2c-31.175%2c-14.506%2c-21.074%2c-24.19%2c-4.095C-33.789%2c12.734%2c-32.389%2c33.173%2c-23.004%2c50.122C-13.289%2c67.667%2c3.309%2c81.204%2c23.356%2c81.775' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M11.845%2c48.734C27.368%2c49.576%2c45.735%2c49.363%2c53.403%2c35.839C61.021%2c22.403%2c51.01%2c7.061%2c42.938%2c-6.107C35.388%2c-18.424%2c26.281%2c-31.405%2c11.845%2c-31.96C-3.322%2c-32.543%2c-16.466%2c-22.02%2c-23.684%2c-8.668C-30.548%2c4.029%2c-30.176%2c19.446%2c-22.579%2c31.719C-15.359%2c43.384%2c-1.854%2c47.991%2c11.845%2c48.734' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1203.7 49.62 a173.92 173.92 0 1 0 347.84 0 a173.92 173.92 0 1 0 -347.84 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1400.256%2c180.709C1436.032%2c179.587%2c1461.338%2c148.785%2c1477.422%2c116.808C1491.699%2c88.423%2c1492.009%2c55.946%2c1477.127%2c27.874C1461.15%2c-2.265%2c1434.367%2c-28.543%2c1400.256%2c-28.758C1365.859%2c-28.975%2c1338.743%2c-2.978%2c1321.688%2c26.894C1304.802%2c56.47%2c1298.73%2c91.599%2c1314.222%2c121.928C1331.156%2c155.08%2c1363.048%2c181.876%2c1400.256%2c180.709' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1241.98 11.35 a97.37 97.37 0 1 0 194.74 0 a97.37 97.37 0 1 0 -194.74 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-67.2263294003841 456.69784397376526L1.1054266363503302 610.1734808577222 86.24930748357285 388.36608793703084z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M139.279%2c738.139C197.193%2c741.616%2c258.416%2c723.05%2c288.131%2c673.219C318.426%2c622.417%2c306.159%2c559.23%2c276.477%2c508.068C246.919%2c457.12%2c198.18%2c416.855%2c139.279%2c416.647C80.066%2c416.438%2c26.985%2c454.187%2c0.395%2c507.094C-23.833%2c555.302%2c-9.327%2c610.786%2c18.47%2c657.028C45.253%2c701.584%2c87.386%2c735.023%2c139.279%2c738.139' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-102.62 475.96 a130.58 130.58 0 1 0 261.16 0 a130.58 130.58 0 1 0 -261.16 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1253.31 448.03 a74.72 74.72 0 1 0 149.44 0 a74.72 74.72 0 1 0 -149.44 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1229.61 471.72 a122.11 122.11 0 1 0 244.22 0 a122.11 122.11 0 1 0 -244.22 0z' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1352.32%2c532.731C1372.192%2c532.643%2c1385.32%2c514.312%2c1394.836%2c496.867C1403.838%2c480.365%2c1409.882%2c460.792%2c1400.424%2c444.547C1391.01%2c428.378%2c1371.017%2c423.153%2c1352.32%2c423.841C1334.938%2c424.481%2c1318.798%2c432.882%2c1309.98%2c447.875C1301.037%2c463.081%2c1301.272%2c481.46%2c1309.148%2c497.245C1318.062%2c515.11%2c1332.355%2c532.819%2c1352.32%2c532.731' fill='rgba(255%2c 255%2c 255%2c 0.38)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1019'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+section{
+    align-items: center;
+    
+    
+}
+section h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    
+}
+section h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+   
+}
+
+section h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+   
+}
+
+header img{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+body{
+    background-color: #F3F3F3;
+    height: 100%;
+    margin: 0;
+    font-family: 'Cambria';
+    
+}
+body .curriculum{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr ;
+
+    height: 100vh;
+
+}
+
+body .info{
+    padding: 15px;
+    color:black;
+    background-color: #DADADA;
+    font-family: 'Cambria';
+    font-size: 30px;
+    
+}
+.info h1{
+    border-bottom:1px solid black;
+    font-size: 45px;
+}
+
+body .exp{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Cambria';
+}
+
+.num{
+    padding-top: 25px;
+    display:flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.num img{
+    height: 60px;
+}
+.num p{
+    padding-left: 15px;
+}
+
+.correo{
+    padding-top: 25px;
+    display:flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.correo img{
+    height: 60px;
+}
+.correo p{
+    padding-left: 15px;
+}
+
+.info h3{
+
+    padding-top: 20px;
+    font-size: 40px;
+    border-bottom:1px solid black;
+}
+
+.exp h1  {
+    font-size: 40px;
+    border-bottom:1px solid black;
+}
+.exp h2  {
+    padding-top: 18px;
+    font-size: 35px;
+     
+}
+
+.exp p{
+    margin:0;
+    padding: 10px;
+    font-size: 25px;
+    text-align: justify;
+    max-width:max-content;
+}
+.exp h3  {
+    padding-top: 18px;
+    font-size: 35px;
+     
+}
+
+.exp h4 {
+    padding-top: 40px;
+    font-size: 40px;
+    border-bottom:1px solid black;
+}
+.infop p{
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.infop h4{
+    padding-top: 15px;
+}
+
+@media(max-width:660px) {
+    header{
+        flex-direction: column;
+    }
+    section h1{
+        padding-top:10px;
+        font-size: 30px;
+    }
+    section h2{
+        padding-top: 5px;
+        
+        font-size: 20px;
+    }
+}
+
+@media(max-width:705px){
+    section h1{
+        padding-top:10px;
+        font-size: 30px;
+    }
+    section h2{
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    section h3{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+}
+@media(max-width: 1260px){
+    .correo p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 1595px){
+
+    
+
+    .num{
+        padding-top: 25px;
+        display:flex;
+        align-items: center;
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .num img{
+        height: 40px;
+    }
+    .num p{
+        padding-left: 15px;
+    }
+    
+    .correo{
+        padding-top: 25px;
+        display:flex;
+        align-items: center;
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .correo img{
+        height: 40px;
+    }
+    .correo p{
+        padding-left: 15px;
+    }
+
+
+}
+@media(max-width: 1000px){
+    body .curriculum{
+        display:block;
+    
+    }
+    .correo p{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width: 620px){
+    .info h1{
+        font-size:30px
+    }
+    .info h3{
+        font-size:30px
+
+    }
+    .exp h1{
+        font-size: 30px;
+    }
+    .exp h2{
+        font-size: 30px;
+    }
+    .exp h3{
+        font-size: 30px;
+    }
+    body .exp h1{
+        font-size: 30px;
+    }
+    body .exp p{
+        font-size: 15px;
+        padding: 5px;
+    }
+
+
+}
