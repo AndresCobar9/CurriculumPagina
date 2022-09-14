@@ -126,21 +126,35 @@ body .exp{
     border-bottom:1px solid black;
 }
 .exp h2  {
-    padding-top: 18px;
+    padding-top: 50px;
     font-size: 35px;
+    padding-left: 30px;
      
 }
 
 .exp p{
     margin:0;
-    padding: 10px;
-    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 28px;
     text-align: justify;
-    max-width:max-content;
+    max-width:  max-content;
+}
+.exp p1{
+    margin:0;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 24px;
+    text-align: justify;
+    max-width:  max-content;
+    font-style: italic;
 }
 .exp h3  {
-    padding-top: 18px;
+    padding-top: 50px;
     font-size: 35px;
+    padding-left: 30px;
      
 }
 
@@ -149,14 +163,26 @@ body .exp{
     font-size: 40px;
     border-bottom:1px solid black;
 }
+
 .infop p{
-    padding-top: 5px;
-    font-size: 20px;
-    padding-left: 30px;
+    padding-top: 4%;
+    font-size: 24px;
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: justify;
+}
+.infop p1{
+    font-size: 18px;
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: justify;
+    font-style: italic;
+    
 }
 
 .infop h4{
-    padding-top: 15px;
+    padding-top: 4%;
+    padding-left: 5%;
 }
 
 @media(max-width:660px) {
@@ -227,9 +253,12 @@ body .exp{
     .correo p{
         padding-left: 15px;
     }
-
+    
+  
 
 }
+
+
 @media(max-width: 1000px){
     body .curriculum{
         display:block;
@@ -238,9 +267,27 @@ body .exp{
     .correo p{
         font-size: 20px;
     }
+    
 
 }
 
+
+
+@media(max-width: 1780px){
+    .infop p1{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1600px){
+    .infop p1{
+        font-size: 13px;
+    }
+}
+@media(max-width: 1320px){
+    .infop p1{
+        font-size: 11px;
+    }
+}
 @media(max-width: 620px){
     .info h1{
         font-size:30px
@@ -265,6 +312,15 @@ body .exp{
         font-size: 15px;
         padding: 5px;
     }
+    .infop p1{
+        font-size: 16px;
+    }
 
 
 }
+
+@media(max-width: 415px){
+    .infop p1{
+        font-size: 14px;
+    }
+    }
